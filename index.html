@@ -354,6 +354,30 @@ footer {
   .services-grid {
     grid-template-columns: 1fr;
   }
+  nav ul {
+    display: none;
+  }
+  #tech-stack .section-title {
+    font-size: 2rem; /* Уменьшаем размер шрифта */
+    text-align: center; /* Центрируем текст */
+    padding: 0 10px; /* Добавляем небольшие отступы по бокам */
+    word-wrap: break-word; /* Разрешаем перенос слов */
+    max-width: 100%; /* Убедимся, что текст не выходит за пределы экрана */
+  }
+
+  #tech-stack .container {
+    padding: 0 15px; /* Добавляем отступы для контейнера */
+  }
+
+  .tech-stack {
+    justify-content: center; /* Центрируем элементы стека */
+    flex-wrap: wrap; /* Разрешаем перенос на новую строку */
+  }
+
+  .tech-item {
+    margin: 5px; /* Уменьшаем отступы между элементами */
+    font-size: 0.9rem; /* Уменьшаем размер шрифта элементов */
+  }
 }
 
 .hexagon-bg {
@@ -765,7 +789,7 @@ footer {
           <div class="tech-stack">
             <span class="tech-item">Python</span>
             <span class="tech-item">aiogram</span>
-            <span class="tech-item">SQLite</span>
+            <span class="tech-item">SQLite3</span>
           </div>
         </div>
       </div>
@@ -779,8 +803,11 @@ footer {
         <span class="tech-item">Python</span>
         <span class="tech-item">aiogram</span>
         <span class="tech-item">disnake</span>
+        <span class="tech-item">vkbottle</span>
+        <span class="tech-item">SQLAlchemy</span>
         <span class="tech-item">MongoDB</span>
         <span class="tech-item">SQLite3</span>
+        <span class="tech-item">PostgreSQL</span>
         <span class="tech-item">Skript</span>
         <span class="tech-item">Git</span>
       </div>
